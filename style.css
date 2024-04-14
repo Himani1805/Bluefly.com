@@ -1,0 +1,446 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Futura,sans-serif;
+}
+body{
+    font-weight: 100;
+    font-family: Futura,sans-serif;
+}
+#root{
+    width: 100%;
+}
+#header{
+    display: flex;
+    justify-content: space-evenly;
+}
+#header div{
+    text-align: center;
+    padding-right: 40px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+#headerLeft{
+    width: 60%;
+}
+#headerRight{
+    width: 40%;
+}
+#headerRight span{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 30px;
+}
+#navBar p a{
+    color: black;
+    text-decoration: none;
+}
+#red{
+    color: #FF2626;
+}
+#black{
+    background-color: #0F0F0F;
+}
+#main div h5{
+    color: white;
+    padding: 6px;
+    text-align: center;
+}
+.mainPic{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 5px;
+    position: relative;
+}
+.slides img{
+    height: 1050px; 
+    margin-bottom: -55%; 
+}
+.slideText{
+    text-align: center;
+    color: white;
+    line-height: 70px;
+}
+.slideText h1{
+    font-size: 80px;
+    font-family: "Sofia", sans-serif;
+}
+.slideText p{
+    font-family: "Trirong", serif;
+    font-size: large;
+    font-weight: 700;
+}
+.slideText button{
+    padding: 12px 25px;
+    border: none;
+    margin-right: 10px;
+    background-color: white;
+    font-weight: 700;
+}
+#scrollButton{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: -5%;
+    left: 1%;
+}
+.button{
+    color: white;
+    border: none;
+    background-color: transparent;
+    font-size:xx-large;
+}
+#products{
+    display: flex;
+    margin: 20px;
+}
+#one{
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 50px;
+}
+#one h1{
+    font-family: "Trirong", serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+#scrollButton1{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 50px;
+}
+.button1{
+    background-color: #0F0F0F;
+    border: 1px solid;
+    color: white;
+    margin: 4px;
+    padding:6px 10px;
+}
+#recommendedProducts{
+    display: flex;
+    margin-top: 40px;
+}
+#recommendedProducts div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card{
+    width: 20%;
+    height: 470px;
+}
+.card div{
+    display: flex;
+    flex-direction: column;
+}
+.heart{
+    height: 10%;
+}
+.dresses{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+.dresses img{
+    width: 100%;
+    height: 300px;
+}
+.dressesText{
+    text-align: center;
+    height: 15%;
+}
+.dressesText p{
+    font-size: 16px;
+    font-weight: 400;
+}
+#uptoOff{
+    display: flex;
+    padding: 40px;
+    gap: 20px;
+    padding-top: 110px;
+    border-bottom: 1px solid #f1ecec;
+}
+.diffStyles{
+    width: 33%;
+    position: relative;
+}
+.styleImg img{
+    width: 100%;
+    height: 500px;
+}
+.imgText{
+    width: 80%;
+    line-height: 40px;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    text-align: center;
+}
+.imgText h1{
+    font-family: "Sofia", sans-serif;
+    font-size: 40px;
+}
+.imgText h3{
+    font-weight: 700;
+}
+.imgText h4{
+    font-weight: 800;
+    font-size: 15.5px;
+}
+.imgText button{
+    background-color: white;
+    color: black;
+    padding: 10px 25px;
+    font-weight: 600;
+    border: 1px solid white
+}
+#shopByCategory{
+    margin: 20px;
+    border-bottom: 1px solid #f1ecec;
+
+}
+#shopByCategory h1{
+    text-align: center;
+    margin: 20px;
+    font-family: "Trirong", serif;
+    font-size: 33px;
+    font-weight: 600;
+}
+#category{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 0px;
+}
+#category div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 18%;
+    height: 300px;
+    text-align: center;
+    gap: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    padding: 5px 0px;
+}
+#category div img{
+    width: 200px;
+    height: 250px;
+}
+#mainScroll{
+    position: relative;
+    margin-bottom: 30px;
+}
+.slideText1{
+    text-align: center;
+    color: white;
+    line-height: 40px;
+}
+.slideText1 h1{
+    font-family: "Sofia", sans-serif;
+    font-size: 80px;
+}
+.slideText1 p{
+    font-size: 21px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+.slideText1 button{
+    padding: 12px 25px;
+    border: none;
+    margin-right: 10px;
+    background-color: white;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+#scrollButton2{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 55%;
+    left: 2%;
+}
+.button2{
+    color: white;
+    border: none;
+    background-color: transparent;
+    font-size:xx-large;
+}
+.slides img{
+    height: 1050px; 
+    margin-bottom: -55%; 
+}
+#newArrival{
+    margin: 20px 0px;
+}
+#new{
+    text-align: center;
+    line-height: 45px;
+}
+#new h1{
+    text-align: center;
+    margin: 6px;
+    font-family: "Trirong", serif;
+    font-size: 33px;
+    font-weight: 600;
+}
+#view{
+    background-color: #FFFFFF;
+    border: 1px solid #E8E8E1;
+    color: #0F0F0F;
+    padding: 8px 20px;
+}
+#arrivals{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+#arrivals div{
+    width: 18%;
+    height: 400px;
+}
+#arrivals div p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+#bottom{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.upto90{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 30%;
+}
+.upt090 img{
+    width: 100%;
+    height: 500px;
+}
+.upto90 h1{
+    font-family: "Trirong", serif;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 32px;
+    text-align: center;
+}
+.upto p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.upto90 button{
+    background-color: #FFFFFF;
+    border: 1px solid #E8E8E1;
+    color: #0F0F0F;
+    padding: 6px 12px;
+    font-weight: 400;
+}
+#footer{
+    background-color: #E6E6E6;
+    line-height: 40px;
+    margin-top: 50px;
+    padding: 50px 50px;
+}
+#footerTop{
+    display: flex;
+    gap: 40px;
+}
+#footerContent {
+    display: flex;
+    gap: 20px;
+}
+#footer div li a{
+    text-decoration: none;
+    color: black;
+}
+#footer div li {
+    list-style-type: none;
+}
+#aboutUs{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+#signUp{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.letterSpacing{
+    letter-spacing: 8px;
+}
+#email{
+    font-size: 16px;
+}
+#subscribe{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+.subscribe{
+    width: 300px;
+    border: none;
+    padding: 12px 0px;
+    margin: 10px 0px;
+    /* text-align: center; */
+
+}
+#mediaLogo{
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+}
+#footerBottom div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+#accessibility{
+    display: flex;
+    justify-content: right;
+    background-color: #E6E6E6; 
+    position:sticky;  
+
+}
+#blue{
+    background-color: #0048FF;
+    border-radius: 50%;
+}
