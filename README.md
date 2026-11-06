@@ -22,10 +22,10 @@ There is no cart, checkout, or account backend. Search, the bag icon, and the na
 Any static file server works. From this folder:
 
 ```bash
-npx --yes serve -l 5500 .
+npx --yes serve -l 5000 .
 ```
 
-Then open [http://localhost:5500/](http://localhost:5500/).
+Then open [http://localhost:5500/](http://localhost:5000).
 
 You can also open `index.html` directly in a browser. The Google font links need a network connection. The pictures do not.
 
