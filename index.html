@@ -12,27 +12,26 @@
     <div id="root">
         <div id="header">
             <div id="headerLeft">
-                <img src="https://bluefly.com/cdn/shop/files/BLUEFLY-LOGO-11-20.png?v=1613183141" alt="" width="200">
+                <img src="images/logo.png" alt="" width="200">
             </div>
             <div id="headerRight">
-                <span> <img src="https://cdn3.iconfinder.com/data/icons/searchicons/338/Searchicons-search-64.png" alt="" width="23">SEARCH</span>
-                <img src="https://bluefly.com/account" alt="">
-                <img src="https://cdn0.iconfinder.com/data/icons/ecommerce-50/48/icon0006_member-128.png" alt="" width="20">
-                <img src="https://cdn4.iconfinder.com/data/icons/free-ui-set/200/line_3-21-128.png" alt=""width="40">
-                <img src="https://cdn1.iconfinder.com/data/icons/e-commerce-outlined/64/e-commerce-Line-64px-svg_shopping_bag-128.png" alt="" width="25">
+                <a href="#recommended"><span> <img src="images/search.png" alt="" width="23">SEARCH</span></a>
+                <a href="#header"><img src="images/account.png" alt="" width="20"></a>
+                <a href="#recommended"><img src="images/menu.png" alt="" width="40"></a>
+                <a href="#recommended"><img src="images/bag.png" alt="" width="25"></a>
             </div>
         </div>
         <div id="navBar">
-            <p><a href="CLOTHING">CLOTHING</a></p>
-            <p><a href="SHOES">SHOES</a></p>
-            <p><a href="HANDBAGS">HANDBAGS</a></p>
-            <p><a href="DESIGNERS">DESIGNERS</a></p>
-            <p><a href="SUNGLASSES">SUNGLASSES</a></p>
-            <p><a href="JEWELRY & WATCHES">JEWELRY & WATCHES</a></p>
-            <p><a href="ACCESSORIES">ACCESSORIES</a></p>
-            <p><a href="HOME">HOME</a></p>
-            <p><a href="UNDER $ 50">UNDER $ 50</a></p>
-            <p id="red"><a  href="CLEARANCE">CLEARANCE</a></p>
+            <p><a href="#cat-dresses">CLOTHING</a></p>
+            <p><a href="#cat-heels">SHOES</a></p>
+            <p><a href="#cat-bags">HANDBAGS</a></p>
+            <p><a href="#banner">DESIGNERS</a></p>
+            <p><a href="#cat-sunglasses">SUNGLASSES</a></p>
+            <p><a href="#cat-jewelry">JEWELRY & WATCHES</a></p>
+            <p><a href="#shop-accessories">ACCESSORIES</a></p>
+            <p><a href="#header">HOME</a></p>
+            <p><a href="#recommended">UNDER $ 50</a></p>
+            <p id="red"><a href="#bottom">CLEARANCE</a></p>
         </div>
         <div id="main">
             <div id="black">
@@ -40,12 +39,12 @@
                 <h5>FREE STANDARD SHIPPING AND HANDLING FOR ORDERS OVER $ 199 <h5>
             </div>
             <div>
-                <img src="https://www.bluefly.com/cdn/shop/files/TOP_BANNER_ASSET_1600x.jpg?v=1712872949" alt="" width="1536"/>
+                <img src="images/top-banner.jpg" alt="" width="1536"/>
             </div>
-            <div class="mainPic">
+            <div class="mainPic" id="banner">
                 <div class="slides slides0">
                     <div>
-                        <img src="http://www.bluefly.com/cdn/shop/files/AdobeStock_157593748_2_720x.jpg" alt="">
+                        <img src="images/banner-prada.jpg" alt="">
                     </div>
                     <div class="slideText">
                         <h1>PRADA </h1>
@@ -55,7 +54,7 @@
                 </div>
                 <div class="slides slides0">
                     <div>
-                        <img src="https://www.bluefly.com/cdn/shop/files/shutterstock_390723769_4_7_900x.jpg" alt="" width="">
+                        <img src="images/banner-handbags.jpg" alt="" width="">
 
                     </div>
                     <div class="slideText">
@@ -67,7 +66,7 @@
                 </div>
                 <div class="slides slides0">
                     <div>
-                        <img src="http://www.bluefly.com/cdn/shop/files/shutterstock_442324294_720x.jpg" alt="">
+                        <img src="images/banner-shoes.jpg" alt="">
                     </div>
                     <div class="slideText">
                         <h1>DESIGNER SHOES</h1>
@@ -78,7 +77,7 @@
                 </div>
                 <div class="slides slides0">
                     <div>                   
-                         <img src="http://www.bluefly.com/cdn/shop/files/AdobeStock_157593748_2_720x.jpg" alt="">
+                         <img src="images/banner-prada.jpg" alt="">
                     </div>
                     <div class="slideText">
                         <h1>PRADA </h1>
@@ -88,7 +87,7 @@
                 </div>
                 <div class="slides slides0">
                     <div>
-                        <img src="https://www.bluefly.com/cdn/shop/files/shutterstock_390723769_4_7_900x.jpg" alt="" width="">
+                        <img src="images/banner-handbags.jpg" alt="" width="">
                     </div>
                     <div class="slideText">
                         <h1>LUXE HANDBAGS</h1>
@@ -98,7 +97,7 @@
                 </div>
                 <div class="slides slides0">
                     <div>
-                        <img src="http://www.bluefly.com/cdn/shop/files/shutterstock_442324294_720x.jpg" alt="">
+                        <img src="images/banner-shoes.jpg" alt="">
 
                     </div>
                     <div class="slideText">
@@ -108,28 +107,24 @@
                         <button>SHOP MEN</button>
                     </div>
                 </div>
-            </div>
-            <div id="scrollButton">
-                <button class="button" onclick="minusDivs0(-1)">&#10094;</button>
-                <button class="button" onclick="plusDivs0(1)">&#10095;</button>
-            </div>           
+                <div id="scrollButton">
+                    <button class="button" onclick="minusDivs0(-1)">&#10094;</button>
+                    <button class="button" onclick="plusDivs0(1)">&#10095;</button>
+                </div>
+            </div> 
             <div id="recommended">
                 <div id="products">
                     <div id="one">
                         <h1>RECOMMENDED PRODUCTS</h1>
                     </div>
-                    <div id="scrollButton1">
-                        <button class="button1" onclick="minusDivs(-1)">&#10094;</button>
-                        <button class="button1" onclick="plusDivs(1)">&#10095;</button>
-                    </div>           
                 </div>
                 <div id="recommendedProducts">
                     <div class="card">
                         <div class="heart">
-                            <img src="https://cdn0.iconfinder.com/data/icons/phosphor-light-vol-3/256/heart-light-128.png" alt="" width="25">
+                            <img src="images/heart.png" alt="" width="25">
                         </div>
                         <div class="dresses">
-                            <img src="https://www.bluefly.com/cdn/shop/files/1411589057_RLLZ_1_1800x1800.jpg?v=1712307158" alt="" width="300">
+                            <img src="images/dress-tube.jpg" alt="" width="300">
                         </div>
                         <div class="dressesText">
                             <p> RAMY BROOK DARLA TUBE DRESS</p>
@@ -138,10 +133,10 @@
                     </div>
                     <div class="card">
                         <div class="heart">
-                            <img src="https://cdn0.iconfinder.com/data/icons/phosphor-light-vol-3/256/heart-light-128.png" alt="" width="25">
+                            <img src="images/heart.png" alt="" width="25">
                         </div>
                         <div class="dresses">
-                            <img src="https://www.bluefly.com/cdn/shop/files/1452917012_RLLZ_1_1800x1800.jpg?v=1712328620" alt="" width="300">
+                            <img src="images/dress-gown.jpg" alt="" width="300">
                         </div>
                         <div class="dressesText">
                             <p> MAC DUGGAL ONE SHOULDER FLORAL EMBELLISHED GOWN</p>
@@ -150,10 +145,10 @@
                     </div>
                     <div class="card">
                         <div class="heart">
-                            <img src="https://cdn0.iconfinder.com/data/icons/phosphor-light-vol-3/256/heart-light-128.png" alt="" width="25">
+                            <img src="images/heart.png" alt="" width="25">
                         </div>
                         <div class="dresses">
-                            <img src="https://www.bluefly.com/cdn/shop/files/1411819429_RLLZ_1_1800x1800.jpg?v=1712699884" alt="" width="300">
+                            <img src="images/top-bandeau.jpg" alt="" width="300">
                         </div>
                         <div class="dressesText">
                             <p> HEMANT & NANDITA BANDEAU LINEN-BLEND TOP</p>
@@ -162,11 +157,11 @@
                     </div>
                     <div class="card">
                         <div class="heart">
-                            <img src="https://cdn0.iconfinder.com/data/icons/phosphor-light-vol-3/256/heart-light-128.png" alt="" width="25">
+                            <img src="images/heart.png" alt="" width="25">
 
                         </div>
                         <div class="dresses">
-                            <img src="https://www.bluefly.com/cdn/shop/files/fBJJfpTeeV24xA7joI2gSXuHWdSmom5p-25_1800x1800.jpg?v=1711687236" alt="" width="300">
+                            <img src="images/dress-metallic.jpg" alt="" width="300">
                         </div>
                         <div class="dressesText">
                             <p>WOMENS METALLIC LONG EVENING DRESS</p>
@@ -175,11 +170,11 @@
                     </div>
                     <div class="card">
                         <div class="heart">
-                            <img src="https://cdn0.iconfinder.com/data/icons/phosphor-light-vol-3/256/heart-light-128.png" alt="" width="25">
+                            <img src="images/heart.png" alt="" width="25">
 
                         </div>
                         <div class="dresses">
-                            <img src="https://www.bluefly.com/cdn/shop/files/1411807687_RLLZ_1_1800x1800.jpg?v=1711938392" alt="" width="300">
+                            <img src="images/shirt-work.jpg" alt="" width="300">
                         </div>
                         <div class="dressesText">
                             <p>ALICE + OLIVIA CARVER CROPPED LINEN-BLEND WORK SHIRT</p>
@@ -190,7 +185,7 @@
                 <div id="uptoOff">
                     <div class="diffStyles">
                         <div class="styleImg">
-                            <img src="https://img.freepik.com/premium-photo/beautiful-woman-holding-handbag_256588-2142.jpg" alt="" width="500">
+                            <img src="images/trending-handbags.jpg" alt="" width="500">
                         </div>
                         <div class="imgText">
                             <h3>TRENDING LUXARY STYLES</h3>
@@ -201,7 +196,7 @@
                     </div>
                     <div class="diffStyles">
                         <div class="styleImg">
-                            <img src="https://assets.ajio.com/medias/sys_master/root/20240314/XACP/65f2a9dc05ac7d77bbb24a17/femvy-blue-gown-women-gown-dress-with-bow-applique.jpg" alt="" width="400">
+                            <img src="images/trending-dresses.jpg" alt="" width="400">
                         </div>
                         <div class="imgText">
                             <h3>ON TRENDS DRESSES</h3>
@@ -212,7 +207,7 @@
                     </div>
                     <div class="diffStyles">
                         <div class="styleImg">
-                            <img src="https://www.nuaah.com/cdn/shop/products/050A1585edit.jpg?v=1649482979" alt="" width="340">
+                            <img src="images/boutique-banner.jpg" alt="" width="340">
                         </div>
                         <div class="imgText">
                             <h3>DESIGNER BOUTIQUE</h3>
@@ -229,44 +224,44 @@
                 <h1>SHOP BY CATEGORY</h1>
             </div>
             <div id="category">
-                <div>
-                    <img src="https://www.bluefly.com/cdn/shop/files/1452465746_RLLZ_1_609ccea7-7a1a-4405-b683-4e1906089c4c_1800x1800.jpg?v=1712462368" alt="" width="200">
+                <div id="cat-dresses">
+                    <img src="images/cat-dresses.jpg" alt="" width="200">
                     <p>DRESSES</p>
                 </div>
-                <div>
-                    <img src="https://www.bluefly.com/cdn/shop/files/1313864393_RLLZ_1_1800x1800.jpg?v=1712748578" alt="" width="200">
+                <div id="cat-heels">
+                    <img src="images/cat-heels.jpg" alt="" width="200">
                     <p>PUMP & HEELS </p>
                 </div>
-                <div>
-                    <img src="https://www.bluefly.com/cdn/shop/products/7412-8202-1555__1_0931c030-5334-47c7-97a8-f07f9af033db_1800x1800.jpg?v=1668822714" alt="" width="200">
+                <div id="cat-bags">
+                    <img src="images/cat-bags.jpg" alt="" width="200">
                     <p>HANDBAGS</p>
                 </div>
-                <div>
-                    <img src="https://www.bluefly.com/cdn/shop/files/11169_01_8326e59c-cb05-4b08-a90f-83e55ee63c1a_1800x1800.jpg?v=1711689602" alt="" width="200">
+                <div id="cat-sunglasses">
+                    <img src="images/cat-sunglasses.jpg" alt="" width="200">
                     <p>SUNGLASSES</p>
                 </div>
                 <div>
-                    <img src="https://www.bluefly.com/cdn/shop/files/1313773898_RLLZ_1_1800x1800.jpg?v=1711444616" alt="" width="200">
+                    <img src="images/cat-womens-sneakers.jpg" alt="" width="200">
                     <p>WOMEN'S SNEAKERS</p>
                 </div>
                 <div>
-                    <img src="https://www.bluefly.com/cdn/shop/files/IA139S22-FAB00-15501__30106__1_1800x1800.jpg?v=1711297354" alt="" width="200">
+                    <img src="images/cat-mens-sneakers.jpg" alt="" width="200">
                     <p>MEN'S SNEAKERS</p>
                 </div>
                 <div>
-                    <img src="https://www.bluefly.com/cdn/shop/products/2023992_1800x1800.jpg?v=1668465267" alt width="200"/>
+                    <img src="images/cat-tshirt.jpg" alt="" width="200">
                     <p>MEN'S T-SHIRTS</p>
                 </div>
                 <div>
-                    <img src="https://www.bluefly.com/cdn/shop/files/2081448_1800x1800.jpg?v=1703720827" alt="" width="200">
+                    <img src="images/cat-tops.jpg" alt="" width="200">
                     <p>WOMEN'S TOPS</p>
                 </div>
                 <div>
-                    <img src="https://www.bluefly.com/cdn/shop/files/1M1506509_1_P_1800x1800.jpg?v=1712803017" alt="" width="200">
+                    <img src="images/cat-denim.jpg" alt="" width="200">
                     <p>WOMEN'S DENIM</p>
                 </div>
-                <div>
-                    <img src="https://www.bluefly.com/cdn/shop/products/largeewb1489_1800x1800.jpg?v=1677079896" alt="" width="200">
+                <div id="cat-jewelry">
+                    <img src="images/cat-jewelry.jpg" alt="" width="200">
                     <p>JEWELRY</p>
                 </div>
             </div>
@@ -274,7 +269,7 @@
                 <div class="mainPic mainScrollButton">
                     <div class="slides slides1">
                         <div>
-                            <img src="http://www.bluefly.com/cdn/shop/files/AdobeStock_157593748_2_720x.jpg" alt="">
+                            <img src="images/banner-prada.jpg" alt="">
                         </div>
                         <div class="slideText1">
                             <h1>PRADA </h1>
@@ -285,7 +280,7 @@
                     </div>
                     <div class="slides slides1">
                         <div>
-                            <img src="https://www.bluefly.com/cdn/shop/files/shutterstock_390723769_4_7_900x.jpg" alt="" width="">
+                            <img src="images/banner-handbags.jpg" alt="" width="">
     
                         </div>
                         <div class="slideText1">
@@ -298,7 +293,7 @@
                     </div>
                     <div class="slides slides1">
                         <div>
-                            <img src="http://www.bluefly.com/cdn/shop/files/shutterstock_442324294_720x.jpg" alt="">
+                            <img src="images/banner-shoes.jpg" alt="">
                         </div>
                         <div class="slideText1">
                             <h1>DESIGNER SHOES</h1>
@@ -309,7 +304,7 @@
                     </div>
                     <div class="slides slides1">
                         <div>                   
-                             <img src="http://www.bluefly.com/cdn/shop/files/AdobeStock_157593748_2_720x.jpg" alt="">
+                             <img src="images/banner-prada.jpg" alt="">
                         </div>
                         <div class="slideText1">
                             <h1>PRADA </h1>
@@ -320,7 +315,7 @@
                     </div>
                     <div class="slides slides1">
                         <div>
-                            <img src="https://www.bluefly.com/cdn/shop/files/shutterstock_390723769_4_7_900x.jpg" alt="" width="">
+                            <img src="images/banner-handbags.jpg" alt="" width="">
                         </div>
                         <div class="slideText1">
                             <h1>LUXE HANDBAGS</h1>
@@ -331,7 +326,7 @@
                     </div>
                     <div class="slides slides1">
                         <div>
-                            <img src="http://www.bluefly.com/cdn/shop/files/shutterstock_442324294_720x.jpg" alt="">
+                            <img src="images/banner-shoes.jpg" alt="">
     
                         </div>
                         <div class="slideText1">
@@ -356,46 +351,46 @@
             </div>
             <div id="arrivals">
                 <div>
-                    <img src="https://www.bluefly.com/cdn/shop/files/GMP00841P001183ome-13_1800x1800.jpg?v=1712776000" alt="" width="170">
+                    <img src="images/arrival-sweater.jpg" alt="" width="170">
                     <p> GOLDEN GOOSE 'DEVIS' BRUSHED MOHAIR AND WOOL SWEATER (SIZE - S)</p>
                     <p> $506 $404.94 Save 20% </p>
                 </div>
                 <div>
-                    <img src="https://www.bluefly.com/cdn/shop/files/1160936320_RLLZ_1_1800x1800.jpg?v=1712707324" alt="" width="200">
+                    <img src="images/arrival-bag.jpg" alt="" width="200">
                     <p> GUCCI GG MARMONT SMALL CANVAS & LEATHER SHOULDER BAG</p>
                     <p> $2,200.00 $1,599.99 Save 27% </p>
                 </div>
                 <div>
-                    <img src="https://www.bluefly.com/cdn/shop/files/1111936466_RLLZ_1_1800x1800.jpg?v=1712707173" alt="" width="200">
+                    <img src="images/arrival-hat.jpg" alt="" width="200">
                     <p> VALENTINO VLOGO LEATHER-TRIM STRAW HAT</p>
                     <p> $1,220.00 $799.99 Save 34% </p>
                 </div>
                 <div>
-                    <img src="https://www.bluefly.com/cdn/shop/files/1313936440_RLLZ_1_1800x1800.jpg?v=1712706995" alt="" width="200">
+                    <img src="images/arrival-flats.jpg" alt="" width="200">
                     <p> VALENTINO VLOGO TOILE ICONOGRAPHE DENIM FLAT</p>
                     <p> $595.00 $499.99 Save 16% </p>
                 </div>
                 <div>
-                    <img src="https://www.bluefly.com/cdn/shop/files/7701-8201-4555__00002__1_1800x1800.jpg?v=1712707316" alt="" width="200">
+                    <img src="images/arrival-beltbag.jpg" alt="" width="200">
                     <p> MOSCHINO WOMENS QUILTED LOGO BELT BAG </p>
                     <p> $590.00 $399.00 Save 32% </p>
                 </div>
             </div>
             <div id="bottom">
                 <div class="upto90">
-                    <img src="https://bluefly.com/cdn/shop/files/denim_540x.jpg?v=1615204984" alt="" width="400">
+                    <img src="images/denim.jpg" alt="" width="400">
                     <h1>Up to 85% Off the denim shop for him & her</h1>
                     <p>From Hudson Jeans, Joe's Jeans, J Brand & More</p>
                     <button>SHOP DENIM</button>
                 </div>
                 <div class="upto90">
-                    <img src="https://bluefly.com/cdn/shop/files/shutterstock_1112754335-REV_540x.jpg?v=1656342184" alt="" width="350">
+                    <img src="images/jumpsuits.jpg" alt="" width="350">
                     <h1>Up to 90% off trending JUMPSUITS & ROMPERS</h1>
                     <p>Must-Haves From Halston, BCBGMAXAZRIA, Iro & More</p>
                     <button>SHOP JUMPSUITS</button>
                 </div>
-                <div class="upto90">
-                    <img src="https://bluefly.com/cdn/shop/files/Tops_540x.jpg?v=1615206654" alt="" width="400">
+                <div class="upto90" id="shop-accessories">
+                    <img src="images/accessories.jpg" alt="" width="400">
                     <h1>UP TO 90% off Women's Must-have accessories</h1>
                     <p>Shop Wallets, Belts, Hats, Sunglasses & More</p>
                     <button>SHOP WOMEN'S ACCESSORIES</button>
@@ -410,17 +405,17 @@
                     </div>
                     <div id="footerContent">
                         <div id="contactUs">
-                            <li><a href="Contact Us">Contact Us</a></li>
-                            <li><a href="Frequently Asked Questions">Frequently Asked Questions</a></li>
-                            <li><a href="Shipping & Returns">Shipping & Returns</a></li>
-                            <li><a href="Pre-Owned Guide">Pre-Owned Guide</a></li>
-                            <li><a href="Sell on Bluefly">Sell on Bluefly</a></li>
+                            <li><a href="#footer">Contact Us</a></li>
+                            <li><a href="#footer">Frequently Asked Questions</a></li>
+                            <li><a href="#footer">Shipping & Returns</a></li>
+                            <li><a href="#footer">Pre-Owned Guide</a></li>
+                            <li><a href="#footer">Sell on Bluefly</a></li>
                         </div>
                         <div id="privacyPolicy">
-                            <li><a href="Privacy Policy">Privacy Policy</a></li>
-                            <li><a href="Terms & Conditions">Terms & Conditions</a></li>
-                            <li><a href="Do not sell my personal information">Do not sell my personal information</a></li>
-                            <li><a href="Shop pay Installments">Shop pay Installments</a></li>
+                            <li><a href="#footer">Privacy Policy</a></li>
+                            <li><a href="#footer">Terms & Conditions</a></li>
+                            <li><a href="#footer">Do not sell my personal information</a></li>
+                            <li><a href="#footer">Shop pay Installments</a></li>
                         </div>
                     </div>
                 </div>
@@ -433,21 +428,21 @@
                         <input class="subscribe" id="email" type="email" placeholder="Enter your email"><br>
                         <button class="subscribe" id="subscribe"><b>Subscribe</b></button>
                         <div id="mediaLogo">
-                            <img src="https://cdn2.iconfinder.com/data/icons/social-icons-32/512/instagram_f-128.png" alt="" width="25">
-                            <img src="https://cdn0.iconfinder.com/data/icons/global-top-brands/430/facebook-letter-logo-128.png" alt="" width="25">    
+                            <img src="images/instagram.png" alt="" width="25">
+                            <img src="images/facebook.png" alt="" width="25">    
                         </div>    
                     </div>
                 </div>                
             </div>
             <div id="footerBottom">
                 <div>
-                    <img src="https://bluefly.com/cdn/shop/files/Untitled_2_.png_5_x104@2x.png?v=1620852820" alt="" width="250">
+                    <img src="images/payments.png" alt="" width="250">
                     <p> © 2024 Bluefly BLUEFLY.COM OR ITS AFFILIATES ALL RIGHTS RESERVED. </p>
                 </div> 
             </div>
         </div>
         <div id="accessibility">
-            <img id="blue" src="https://cdn.userway.org/widgetapp/images/body_wh.svg" alt="">
+            <img id="blue" src="images/accessibility.svg" alt="">
         </div>   
     </div>
 </body>
